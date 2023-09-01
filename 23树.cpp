@@ -198,10 +198,13 @@ public:
 int main()
 {
 	int arr[10] = { 55, 99, 24, 66, 11, 10, 77, 13, 38, 91 };
+	int arr1[10] = { 5, 9, 4, 6, 1, 0, 7, 3, 8, 10 };
 	My23tree<int> t;
 
 	for (int i = 0; i < 10; i++)
 		t.insert(arr[i]);
+	for (int i = 0; i < 10; i++)
+		t.insert(arr1[i]);
 
     return 0;
 }
