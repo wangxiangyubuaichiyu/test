@@ -188,9 +188,10 @@ public:
 		{
 			TreeNode = new Node();
 			TreeNode->data[0] = t;
+			cout<<"t"<<" ";
 			TreeNode->type = 2;
 		}
-
+		
 	}
 };
 
